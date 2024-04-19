@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+}
+
+.flex > * {
+    border: 1px solid red !important;
+    padding: 0 !important;
+    flex-grow: 1; /*CUANTO SE AGRANDE UN ELEMENTO*/
+    flex-shrink: 1; /*CUANTO SE DISMINUYE UN ELEMENTO*/
+    flex-basis: 100%; /*CUAL ES EL TAMAÑO BASE*/
+}
+
+.flex > p {
+    border: 1px solid green !important;
+    flex-basis: 50px;
+}
