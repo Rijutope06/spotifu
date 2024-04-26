@@ -1,18 +1,26 @@
 @import './icons.css';
 @import './font.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './logo.css';
+@import './list.css';
+@import './menu.css';
 
 :root {
     --primary:#00B050;
     --white: #fff;
-    --gay-10: #B3B3B3;
-    --gay-20: #737373;
-    --gay-30: #282828;
-    --gay-40: #181818;
-    --gay-50: #121212;
-    --gay-60: #000000;
-}
-
-body {
-    background: var(--primary);
-    font-family: Avenir;
+    --gray10: #B3B3B3;
+    --gray20: #737373;
+    --gray30: #282828;
+    --gray40: #181818;
+    --gray50: #121212;
+    --gray60: #000000;
+    --basefontFamily: Avenir, Helvetica;
+    --headline1: bold 2rem/normal var(--basefontFamily);
+    --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+    --basefont: normal .875rem/1.375rem var(--basefontFamily);
+    --basefontBold: bold .875rem/1.375rem var(--basefontFamily);
+    --button: bold .875rem/1rem var(--basefontFamily);
+    --small: normal .75em/normal var(--basefontFamily);
 }
